@@ -17,6 +17,7 @@ Enter your lazy and boring prompt in the box, click go button. Receive probably 
 
 Good as way to expand prompts, spark imagination and develop them into something special. Or just a bit of fun.
 
+![](screenshot.png)
 ---
 ## Advanced / Details ##
 lol
