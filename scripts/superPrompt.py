@@ -29,13 +29,11 @@ class SuprPromptr(scripts.Script):
         if tokenizer is None:
             tokenizer = T5TokenizerFast.from_pretrained(
                 'roborovski/superprompt-v1',
-                cache_dir='.//models//diffusers//',
             )
             shared.SuperPrompt_tokenizer = tokenizer
         if superprompt is None:
             superprompt = T5ForConditionalGeneration.from_pretrained(
                 'roborovski/superprompt-v1',
-                cache_dir='.//models//diffusers//',
                 device_map='auto',
                 torch_dtype=torch.float16
             )
